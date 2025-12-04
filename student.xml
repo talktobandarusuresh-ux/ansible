@@ -1,0 +1,63 @@
+<!-- List of Objects -->
+<Students>
+    <!--Object-->
+    <Student>
+        <Name>Suresh</Name>
+        <DOB>13-08-123</DOB>
+        <Age>21</Age>
+
+        <!--List of Objects-->
+        <Addresses>
+            <!--Object-->
+            <Address Type="Perm">
+                <DoorNo>123</DoorNo>
+                <Street>GANDHI ROAD</Street>
+                <PIN>123456</PIN>
+            </Address>
+
+            <Address Type="Current">
+                <DoorNo>234</DoorNo>
+                <Street>Nehru Nagar</Street>
+                <PIN>456789</PIN>
+            </Address>
+        </Addresses>
+        <!--List of String-->
+        <Skills>
+            <Skill>Java</Skill>
+            <Skill>Python</Skill>
+            <Skill>DevSecOps</Skill>
+        <Skills>
+
+    </Student>
+
+    <!--Object-->
+    <Student>
+        <Name>Ramesh</Name>
+        <DOB>12-05-85</DOB>
+        <Age>25</Age>
+
+        <!--List of Objects-->
+        <Addresses>
+            <!--Object-->
+            <Address Type="Perm">
+                <DoorNo>456</DoorNo>
+                <Street>GANDHI ROAD</Street>
+                <PIN>123456</PIN>
+            </Address>
+
+            <Address Type="Current">
+                <DoorNo>159</DoorNo>
+                <Street>Nehru Nagar</Street>
+                <PIN>456789</PIN>
+            </Address>
+        </Addresses>
+        <!--List of String-->
+        <Skills>
+            <Skill>Azure</Skill>
+            <Skill>AWS</Skill>
+            <Skill>DevSecOps</Skill>
+        <Skills>
+
+    </Student>
+
+</Students>
